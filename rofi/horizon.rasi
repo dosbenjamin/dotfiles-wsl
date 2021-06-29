@@ -1,0 +1,83 @@
+* {
+  red: #E95678;
+  purple: #B877DB;
+  blue: #25B2BC;
+  orange: #FAB795;
+  grey: #BABABA;
+  middlegrey: #1C1E26;
+  darkgrey: #16161C;
+}
+
+window {
+  background-color: @middlegrey;
+  width: 540px;
+  border: 1px solid;
+  border-color: @orange;
+}
+
+mainbox {
+  padding: 10px;
+  background-color: @middlegrey;
+}
+
+inputbar {
+  margin: 0px 0px 8px 0px;
+  background-color: @middlegrey;
+  children: [prompt, entry];
+}
+
+prompt {
+  padding: 0 8px;
+  text-color: @darkgrey;
+  background-color: @orange;
+}
+
+entry {
+  margin: 0px 4px;
+  text-color: @grey;
+  background-color: @middlegrey;
+}
+
+listview {
+  dynamic: true;
+  scrollbar: false;
+  background-color: @middlegrey;
+}
+
+element {
+  padding: 0 8px;
+  text-color: @grey;
+  background-color: @middlegrey;
+}
+
+element selected {
+  background-color: @blue;
+  text-color: @darkgrey;
+}
+
+element urgent, element selected urgent {
+  text-color: @red;
+}
+
+element active, element selected active {
+  background-color: @purple;
+  text-color: @darkgrey;
+}
+
+message {
+  padding: 8px;
+  background-color: @middlegrey;
+  border: 1px;
+  border-color: @orange;
+}
+
+button selected {
+  padding: 8px;
+  background-color: @middlegrey;
+}
+
+textbox {
+  text-color: @grey;
+  background-color: @middlegrey;
+  padding: 8px;
+}

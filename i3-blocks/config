@@ -1,0 +1,7 @@
+[time]
+command=date '+%d-%m-%Y %H:%M:%S'
+min_width=_31-12-9999 00-00-00_
+interval=1
+align=center
+background=#FAB795
+color=#16161C
