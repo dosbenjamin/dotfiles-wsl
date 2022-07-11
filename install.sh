@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt full-upgrade
 
-# FISH
+# Fish
 sudo apt install fish && fish
 curl -L https://get.oh-my.fish | fish
 ln -s ./config.fish ~/.config/fish/config.fish
