@@ -5,10 +5,10 @@ sudo apt full-upgrade
 # Development environment
 mkdir ~/McArnolds
 mkdir ~/Workspace
-ln -s .gitconfig ~/.gitconfig
-ln -s .gitconfig-mcarnolds ~/.gitconfig-mcarnolds
-ln -s .gitconfig-workspace ~/.gitconfig-workspace
-ln -s .ssh-config ~/.ssh/config
+ln -s gitconfig ~/.gitconfig
+ln -s gitconfig-mcarnolds ~/.gitconfig-mcarnolds
+ln -s gitconfig-workspace ~/.gitconfig-workspace
+ln -s ssh-config ~/.ssh/config
 
 # Fish
 sudo apt install fish && fish
