@@ -1,0 +1,4 @@
+[includeIf 'gitdir:~/Workspace']
+  path = ~/.gitconfig-workspace
+[includeIf 'gitdir:~/McArnolds']
+  path = ~/.gitconfig-mcarnolds
