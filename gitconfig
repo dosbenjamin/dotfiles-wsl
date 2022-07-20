@@ -1,4 +1,6 @@
-[includeIf 'gitdir:~/Workspace']
-  path = ~/.gitconfig-workspace
-[includeIf 'gitdir:~/McArnolds']
-  path = ~/.gitconfig-mcarnolds
+[user]
+  email = hello@benjamindossantos.be
+  name = Benjamin Dos Santos
+
+[includeIf "gitdir:~/McArnolds/"]
+  path = ~/dotfiles-linux/gitconfig.mcarnolds

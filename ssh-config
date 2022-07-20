@@ -1,7 +1,7 @@
 Host github.com
   HostName github.com
   AddKeysToAgent yes
-  IdentityFile ~/.ssh/workspace
+  IdentityFile ~/.ssh/personal
 
 Host bitbucket.org
   HostName bitbucket.org
