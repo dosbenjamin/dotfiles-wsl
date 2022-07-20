@@ -10,3 +10,13 @@ alias npm='pnpm'
 set PATH $HOME/.local/share/pnpm $PATH
 set PATH $HOME/.config/composer/vendor/bin $PATH
 set LS_COLORS 'ow=90;102'
+
+# Global functions
+function generateSSHKey
+  set output $HOME/.ssh/$argv[2]
+
+  ssh-keygen -t ed25519 -C $argv[1] -f $output
+  eval (ssh-agent -c | head -n2)
+
+  cat $output.pub
+end
