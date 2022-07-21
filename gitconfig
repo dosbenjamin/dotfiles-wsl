@@ -3,4 +3,4 @@
   name = Benjamin Dos Santos
 
 [includeIf "gitdir:~/McArnolds/"]
-  path = ~/dotfiles-linux/gitconfig.mcarnolds
+  path = ~/dotfiles-wsl/gitconfig.mcarnolds

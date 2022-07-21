@@ -5,6 +5,7 @@ sudo apt full-upgrade
 # Development environment
 mkdir ~/McArnolds
 mkdir ~/Workspace
+mkdir ~/.ssh
 cp gitconfig ~/.gitconfig
 cp ssh-config ~/.ssh/config
 

@@ -10,6 +10,7 @@ alias npm='pnpm'
 set PATH $HOME/.local/share/pnpm $PATH
 set PATH $HOME/.config/composer/vendor/bin $PATH
 set LS_COLORS 'ow=90;102'
+set TERM ansi
 
 # Global functions
 function generateSSHKey
