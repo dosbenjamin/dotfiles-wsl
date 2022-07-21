@@ -5,6 +5,7 @@ alias fishreload='source ~/.config/fish/config.fish'
 alias ws='cd ~/Workspace'
 alias mca='cd ~/McArnolds'
 alias npm='pnpm'
+alias win='cd /mnt/c/Users/Benjamin'
 
 # Shell variables
 set PATH $HOME/.local/share/pnpm $PATH
