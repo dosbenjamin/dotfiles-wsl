@@ -9,10 +9,6 @@ mkdir ~/.ssh
 cp gitconfig ~/.gitconfig
 cp ssh-config ~/.ssh/config
 
-# PHP
-sudo apt install php7.4
-sudo apt install composer
-
 # Node
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 pnpm env use --global lts
