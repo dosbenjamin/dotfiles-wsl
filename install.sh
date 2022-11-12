@@ -12,8 +12,5 @@ cp ssh-config ~/.ssh/config
 curl -fsSL https://get.pnpm.io/install.sh | sh -
 pnpm env use --global lts
 
-# PostgreSQL
-sudo apt install postgresql
-
 # Fish
 sudo apt install fish && fish
