@@ -3,7 +3,6 @@ alias c='clear'
 alias fishconfig='code ~/.config/fish/config.fish'
 alias fishreload='source ~/.config/fish/config.fish'
 alias ws='cd ~/Workspace'
-alias npm='pnpm'
 alias win='cd /mnt/c/Users/Benjamin'
 
 # Shell variables
