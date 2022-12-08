@@ -3,4 +3,4 @@
   name = Benjamin Dos Santos
 
 [core]
- 	excludesfile = ~/.gitignore_global
+  excludesfile = ~/.gitignore_global
