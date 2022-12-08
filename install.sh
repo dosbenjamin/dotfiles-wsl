@@ -14,3 +14,6 @@ pnpm env use --global lts
 
 # Fish
 sudo apt install fish && fish
+
+# Git
+cp gitignore_global ~/.gitignore_global
