@@ -8,6 +8,7 @@ alias win='cd /mnt/c/Users/Benjamin'
 # Shell variables
 set PATH $HOME/.local/share/pnpm $PATH
 set PATH $HOME/.config/composer/vendor/bin $PATH
+set PATH $HOME/.deno/bin $PATH
 set LS_COLORS 'ow=90;102'
 set TERM ansi
 
