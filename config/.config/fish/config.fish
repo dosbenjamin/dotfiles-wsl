@@ -5,12 +5,11 @@ alias fishreload='source ~/.config/fish/config.fish'
 alias ws='cd ~/Workspace'
 alias win='cd /mnt/c/Users/Benjamin'
 
-# Shell variables
-set PATH $HOME/.local/share/pnpm $PATH
-set PATH $HOME/.config/composer/vendor/bin $PATH
-set PATH $HOME/.deno/bin $PATH
-set LS_COLORS 'ow=90;102'
+# Theme
 set TERM ansi
+
+# PNPM
+set PATH $HOME/.local/share/pnpm $PATH
 
 # Global functions
 function generateSSHKey
@@ -21,3 +20,7 @@ function generateSSHKey
 
   cat $output.pub
 end
+
+# bun
+set --export BUN_INSTALL "$HOME/.bun"
+set --export PATH $BUN_INSTALL/bin $PATH
