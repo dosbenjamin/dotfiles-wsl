@@ -8,8 +8,11 @@ alias win='cd /mnt/c/Users/Benjamin'
 # Theme
 set TERM ansi
 
-# PNPM
-set PATH $HOME/.local/share/pnpm $PATH
+# pnpm
+set -gx PNPM_HOME "/home/benjamin/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
 
 # Global functions
 function generateSSHKey
@@ -19,9 +22,4 @@ function generateSSHKey
   eval (ssh-agent -c | head -n2)
 
   cat $output.pub
-end
-
-set -gx PNPM_HOME "/home/benjamin/.local/share/pnpm"
-if not string match -q -- $PNPM_HOME $PATH
-  set -gx PATH "$PNPM_HOME" $PATH
 end
