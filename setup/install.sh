@@ -16,10 +16,9 @@ sudo apt update
 sudo apt full-upgrade
 
 ## Install
-sudo apt curl
-sudo apt unzip
-sudo apt wget
-sudo apt rclone
+sudo apt install fish
+sudo apt install curl
+sudo apt install wget
 
 ## Cleanup
 sudo apt autoremove
